@@ -1,0 +1,31 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.humaninterest.com/docs/getting-started/authentication
+docs: https://docs.humaninterest.com/docs/getting-started/authentication
+api: https://api.humaninterest.com/v1/graphql
+summary:
+  types:
+  - oauth2
+  - openIdConnect
+  transport: bearer-token
+  notes: >-
+    Human Interest's GraphQL API is authenticated with partner-issued API
+    credentials that are exchanged for an access token, sent as a bearer token
+    on requests to the GraphQL endpoint. Separately, partner platforms can let
+    their users sign in to Human Interest via OpenID Connect (SSO). Exact token
+    URLs, grant type, and scope names are documented behind the client-rendered
+    docs and were not machine-readable at capture time.
+schemes:
+- name: apiCredentials
+  type: oauth2
+  transport: bearer
+  description: >-
+    Partner API credentials exchanged for an access token; token presented as a
+    bearer token to https://api.humaninterest.com/v1/graphql.
+  source: https://docs.humaninterest.com/docs/getting-started/authentication
+- name: sso
+  type: openIdConnect
+  description: >-
+    OpenID Connect single sign-on so a partner platform's users can sign in to
+    Human Interest with their identity from the partner platform.
+  source: https://docs.humaninterest.com/docs/sso/login
