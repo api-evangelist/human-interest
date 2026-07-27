@@ -1,0 +1,36 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.humaninterest.com/
+docs: https://docs.humaninterest.com/docs/getting-started/introduction
+api_style: graphql
+endpoint: https://api.humaninterest.com/v1/graphql
+authentication:
+  style: bearer-token
+  models:
+  - oauth2
+  - openIdConnect
+  ref: authentication/human-interest-authentication.yml
+versioning:
+  scheme: uri-path
+  current: v1
+  evidence: GraphQL endpoint served at /v1/graphql
+pagination:
+  style: graphql
+  notes: >-
+    GraphQL query-shaped result sets. Exact connection/cursor field names were
+    not machine-readable from the client-rendered docs; not asserted.
+rate_limiting:
+  documented: true
+  docs: https://docs.humaninterest.com/docs/getting-started/api-limits
+  status_code: 429
+  notes: >-
+    Rate limits are documented on the API limits page; a 429 status is used on
+    limit exceeded (observed in the docs bundle). Exact counts/windows were not
+    machine-readable.
+events:
+  webhooks: true
+  docs: https://docs.humaninterest.com/docs/guides/webhooks
+  ref: asyncapi/human-interest-webhooks.yml
+idempotency:
+  documented: false
+  notes: No idempotency-key contract was found in the public documentation.

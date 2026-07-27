@@ -1,0 +1,40 @@
+# Human Interest
+
+> Human Interest is a fintech company providing affordable, full-service 401(k), 403(b), and IRA retirement plans built for small and medium-sized businesses, with 600+ payroll integrations. It exposes a public GraphQL API for partners to onboard plans, integrate SSO, and receive webhook events.
+
+## APIs
+
+- [Human Interest GraphQL API](https://api.humaninterest.com/v1/graphql): Partner GraphQL API for plan onboarding and benefits administration.
+- [Developer Documentation](https://docs.humaninterest.com/): "Build powerful integrations with our GraphQL API."
+
+## Docs
+
+- [Introduction](https://docs.humaninterest.com/docs/getting-started/introduction): Capabilities and getting started.
+- [Authentication](https://docs.humaninterest.com/docs/getting-started/authentication): API credentials and authorization (bearer token; OpenID Connect for SSO).
+- [Quickstart](https://docs.humaninterest.com/docs/getting-started/quickstart): First API calls.
+- [API limits](https://docs.humaninterest.com/docs/getting-started/api-limits): Rate limits (429 on exceed).
+- [Onboard a 401(k) plan](https://docs.humaninterest.com/docs/guides/onboard-a-plan): End-to-end plan onboarding.
+- [SSO login](https://docs.humaninterest.com/docs/sso/login): OpenID Connect single sign-on.
+- [Webhooks](https://docs.humaninterest.com/docs/guides/webhooks): Event notifications for partners.
+
+## Company
+
+- [Website](https://humaninterest.com)
+- [Pricing](https://humaninterest.com/pricing/)
+- [Learning Center / Blog](https://humaninterest.com/blog)
+- [Support](https://humaninterest.com/support)
+- [Sign up](https://humaninterest.com/signup)
+- [Trust / Security center](https://security.humaninterest.com/): SOC 1, SOC 2 Type 1 & 2, CCPA, GLBA; responsible disclosure (grc@humaninterest.com).
+- [Legal / Terms](https://humaninterest.com/legal/)
+- [Privacy Policy](https://humaninterest.com/privacy-policy/)
+
+## Artifacts
+
+- [Authentication profile](authentication/human-interest-authentication.yml)
+- [API conventions](conventions/human-interest-conventions.yml)
+- [Conformance](conformance/human-interest-conformance.yml)
+- [Lifecycle](lifecycle/human-interest-lifecycle.yml)
+- [Webhooks surface](asyncapi/human-interest-webhooks.yml)
+- [Trust center](security/human-interest-trust-center.yml)
+- [Vulnerability disclosure](security/human-interest-vulnerability-disclosure.yml)
+- [Domain security](security/human-interest-domain-security.yml)

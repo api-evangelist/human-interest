@@ -1,0 +1,31 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.humaninterest.com/
+standards:
+- id: graphql
+  conforms: true
+  evidence: Public GraphQL API at https://api.humaninterest.com/v1/graphql (live, __typename=Query)
+- id: openid-connect
+  conforms: true
+  evidence: SSO login integration via OpenID Connect (docs.humaninterest.com/docs/sso/login)
+- id: oauth2
+  conforms: true
+  evidence: Partner API credentials exchanged for a bearer access token
+- id: webhooks
+  conforms: true
+  evidence: Webhooks guide at docs.humaninterest.com/docs/guides/webhooks
+- id: soc1
+  conforms: true
+  evidence: SOC 1 listed on security.humaninterest.com trust center
+- id: soc2-type2
+  conforms: true
+  evidence: SOC 2 Type 1 and Type 2 listed on security.humaninterest.com trust center
+- id: glba
+  conforms: true
+  evidence: GLBA listed on security.humaninterest.com trust center
+- id: ccpa
+  conforms: true
+  evidence: CCPA listed on security.humaninterest.com trust center
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: Not evidenced (GraphQL API; no problem+json error surface documented)

@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://security.humaninterest.com/
+url: https://security.humaninterest.com/
+platform: SafeBase
+certifications:
+- SOC 1
+- SOC 2 Type 1
+- SOC 2 Type 2
+compliance:
+- CCPA
+- GLBA
+evidence:
+- source: https://security.humaninterest.com/
+  keywords:
+  - soc 1
+  - soc 2 type 1
+  - soc 2 type 2
+  - ccpa
+  - glba
+  - trust center
+  - responsible disclosure

@@ -1,9 +1,30 @@
 aid: human-interest
 name: Human Interest
-description: 'Human Interest is a company surfaced as a portfolio company of softbank-vision-fund, susa-ventures,
-  sv-angel, uncork-capital, wing-venture-capital, y-combinator and added to the API Evangelist network
-  as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Human Interest is a fintech company providing affordable, full-service
+  401(k), 403(b), and IRA retirement plans built for small and medium-sized
+  businesses. Founded to close the retirement savings gap, it combines automated
+  plan administration, 600+ payroll integrations, and low-cost index-fund
+  investing. For platforms and partners it publishes a GraphQL API
+  (https://api.humaninterest.com/v1/graphql) that lets them onboard retirement
+  plans end to end, integrate OpenID Connect single sign-on, and subscribe to
+  webhook events, all documented at docs.humaninterest.com. Human Interest
+  maintains a SafeBase trust center with SOC 1, SOC 2 Type 1 & 2, GLBA, and
+  CCPA attestations plus a responsible-disclosure program.
 url: https://raw.githubusercontent.com/api-evangelist/human-interest/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.builder.io/api/v1/image/assets%2Fe2719c23b0574124be5a7ea31e5b5e3b%2Fc050d2c9eb53497bb95bab1b377daf4a
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,15 +34,40 @@ x-backed-by:
 - uncork-capital
 - wing-venture-capital
 - y-combinator
-x-tier: stub
+x-tier: enriched
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Fintech
-apis: []
+- Retirement
+- 401(k)
+- Employee Benefits
+- Payroll
+- GraphQL
+- API
+apis:
+- name: Human Interest GraphQL API
+  description: >-
+    Partner GraphQL API for onboarding 401(k)/403(b) retirement plans,
+    OpenID Connect single sign-on, and webhook event subscriptions.
+  humanURL: https://docs.humaninterest.com/
+  baseURL: https://api.humaninterest.com/v1/graphql
+  properties:
+  - type: GraphQL
+    url: https://api.humaninterest.com/v1/graphql
+  - type: Documentation
+    url: https://docs.humaninterest.com/
+  - type: APIReference
+    url: https://docs.humaninterest.com/docs/getting-started/introduction
+  - type: GettingStarted
+    url: https://docs.humaninterest.com/docs/getting-started/quickstart
+  - type: Authentication
+    url: authentication/human-interest-authentication.yml
+  - type: Webhooks
+    url: asyncapi/human-interest-webhooks.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -30,3 +76,48 @@ maintainers:
 common:
 - type: Website
   url: https://humaninterest.com
+- type: DeveloperPortal
+  url: https://docs.humaninterest.com/
+- type: Documentation
+  url: https://docs.humaninterest.com/
+- type: Pricing
+  url: https://humaninterest.com/pricing/
+- type: SignUp
+  url: https://humaninterest.com/signup
+- type: Login
+  url: https://app.humaninterest.com
+- type: Support
+  url: https://humaninterest.com/support
+- type: Blog
+  url: https://humaninterest.com/blog
+- type: TermsOfService
+  url: https://humaninterest.com/legal/
+- type: PrivacyPolicy
+  url: https://humaninterest.com/privacy-policy/
+- type: Authentication
+  url: authentication/human-interest-authentication.yml
+- type: Conventions
+  url: conventions/human-interest-conventions.yml
+- type: Conformance
+  url: conformance/human-interest-conformance.yml
+- type: Compliance
+  url: https://security.humaninterest.com/
+- type: Lifecycle
+  url: lifecycle/human-interest-lifecycle.yml
+- type: Webhooks
+  url: asyncapi/human-interest-webhooks.yml
+- type: TrustCenter
+  url: security/human-interest-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/human-interest-vulnerability-disclosure.yml
+- type: Security
+  url: security/human-interest-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/human-interest-domain-security.yml
+- type: LLMsTxt
+  url: llms/human-interest-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

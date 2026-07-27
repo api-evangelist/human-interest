@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.humaninterest.com/
+versioning:
+  scheme: uri-path
+  current: v1
+  docs: https://docs.humaninterest.com/docs/getting-started/introduction
+  evidence: GraphQL endpoint served at https://api.humaninterest.com/v1/graphql
+deprecation:
+  policy_url: null
+  sunset_header: null
+  notes: No public deprecation/sunset policy was found.
+sla:
+  url: null
+status_page: null
+status_page_notes: >-
+  No status.humaninterest.com or public status page was found (DNS did not
+  resolve at capture time).
+deprecated_operations: []

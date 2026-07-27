@@ -1,0 +1,15 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.humaninterest.com/docs/guides/webhooks
+spec_type: Webhooks
+surface: webhooks
+docs: https://docs.humaninterest.com/docs/guides/webhooks
+description: >-
+  Human Interest documents a webhooks surface for its GraphQL platform (see the
+  "Webhooks" guide). Partners subscribe to receive event notifications, for
+  example around plan onboarding progress. The individual event names, payload
+  schemas, and signature-verification header were not machine-readable from the
+  client-rendered Docusaurus docs at capture time, so the event catalog is not
+  enumerated here (no fabrication). The presence of the webhook surface is
+  verified.
+events: []
