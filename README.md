@@ -64,6 +64,102 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Human Interest is a company surfaced as a portfolio company of softbank-vision-fund, susa-ventures, sv-angel, uncork-capital, wing-venture-capital, y-combinator and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.
+Human Interest is a fintech company providing affordable, full-service 401(k), 403(b), and IRA retirement plans built for small and medium-sized businesses. Founded to close the retirement savings gap, it combines automated plan administration, 600+ payroll integrations, and low-cost index-fund investing. For platforms and partners it publishes a GraphQL API (https://api.humaninterest.com/v1/graphql) that lets them onboard retirement plans end to end, integrate OpenID Connect single sign-on, and subscribe to webhook events, all documented at docs.humaninterest.com. Human Interest maintains a SafeBase trust center with SOC 1, SOC 2 Type 1 & 2, GLBA, and CCPA attestations plus a responsible-disclosure program.
 
-Backed by: softbank-vision-fund, susa-ventures, sv-angel, uncork-capital, wing-venture-capital, y-combinator — https://humaninterest.com
+**Areas:** Company · Fintech · Retirement · 401k · Employee Benefits · Payroll · GraphQL
+
+## Human Interest on APIs.io
+
+Everything profiled for Human Interest is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/human-interest/](https://apis.io/providers/human-interest/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Human Interest GraphQL API](https://apis.io/apis/human-interest/human-interest-graphql-api/) — Partner GraphQL API for onboarding 401(k)/403(b) retirement plans, OpenID Connect single sign-on, and webhook event subscriptions.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Human Interest Webhooks](https://apis.io/asyncapis/human-interest/human-interest-webhooks/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Human Interest Authentication](https://apis.io/security/human-interest/human-interest-authentication/)
+- [Human Interest Domain Security](https://apis.io/security/human-interest/human-interest-domain-security/)
+- [Human Interest Trust Center](https://apis.io/security/human-interest/human-interest-trust-center/)
+- [Human Interest Vulnerability Disclosure](https://apis.io/security/human-interest/human-interest-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://humaninterest.com)
+- [Documentation](https://docs.humaninterest.com/)
+- [Pricing](https://humaninterest.com/pricing/)
+- [Sign up](https://humaninterest.com/signup)
+- [Support](https://humaninterest.com/support)
+- [Blog](https://humaninterest.com/blog)
+- [Compliance](https://security.humaninterest.com/)
+- [Terms of service](https://humaninterest.com/legal/)
+- [Privacy policy](https://humaninterest.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 40.0** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 39.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 60.5 |
+
+**Agent readiness 19.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 35.3** — Employment & Payroll
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/human-interest/](https://apis.io/providers/human-interest/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Human Interest: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/human-interest/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
